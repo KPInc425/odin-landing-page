@@ -1,7 +1,75 @@
 html {
     box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+header, footer {
+    background-color: #1f2937;
+}
+
+header > * {
+    max-width: 80vw;
+    margin: auto;
+    padding: 20px 0 100px 0;
+}
+
+header a, header p, footer, img {
+    color: #E5E7EB;
+}
+
+nav h2 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+div > a {
+    text-decoration: none;
+}
+
+img {
+    min-width: 400px;
+    min-height: 175px;
+    text-align: center;
+    padding-top: 80px;
+    background-color: grey;
+}
+
+#hero-content {
+    max-width: 400px;
+}
+
+#hero-content > * {
+    margin: 8px 0 8px 0;
+}
+
+#hero-content h1 {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    color:#f9faf8;
+    background-color: #3882f6;
+    font-weight: bolder;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+/* .flex-gap {
+    gap: 15px;
+} */
+
+
