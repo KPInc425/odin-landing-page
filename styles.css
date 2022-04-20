@@ -1,6 +1,11 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+}
+
 html {
     box-sizing: border-box;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Roboto', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 *, *::before, *::after {
@@ -48,7 +53,7 @@ div > a {
 
 #hero-content h1 {
     color: #f9faf8;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 48px;
 }
 
@@ -82,7 +87,7 @@ button {
     color: #1f2937;
     margin: 10px 0 50px 0;
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .info-image {
@@ -129,7 +134,7 @@ button {
 
 #quote-section p:last-of-type {
     align-self: flex-end;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 #second-signup-section > .flex {
@@ -146,7 +151,7 @@ button {
 }
 
 .text-content > p:first-of-type {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 footer {
