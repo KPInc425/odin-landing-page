@@ -11,7 +11,7 @@ header, footer {
     background-color: #1f2937;
 }
 
-header > * {
+header > *, #info-section, #second-signup-section > .flex {
     max-width: 80vw;
     margin: auto;
     padding: 20px 0 100px 0;
@@ -30,16 +30,16 @@ div > a {
     text-decoration: none;
 }
 
-img {
+.hero-img {
     min-width: 400px;
     min-height: 175px;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 100px;
     background-color: grey;
 }
 
 #hero-content {
-    max-width: 400px;
+    max-width: 450px;
 }
 
 #hero-content > * {
@@ -48,7 +48,7 @@ img {
 
 #hero-content h1 {
     color: #f9faf8;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 48px;
 }
 
@@ -68,8 +68,90 @@ button {
     gap: 15px;
 }
 
-/* .flex-gap {
+.flex-column {
+    display: flex;
+    flex-direction: column;
     gap: 15px;
-} */
+}
 
+#info-section {
+    text-align: center;
+}
+
+#info-section > h2 {
+    color: #1f2937;
+    margin: 10px 0 50px 0;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.info-image {
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+}
+
+.info-container {
+    width: 150px;
+}
+
+#hero-content > p {
+    font-size: 18px;
+}
+
+.info-container > p {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #1f2937;
+}
+
+#quote-section {
+    background-color: #E5E7EB;
+}
+
+#quote-section {
+    color: #1f2937;
+}
+
+#quote-section > * {
+    max-width: 80vw;
+    margin: auto;
+    padding: 100px 100px;
+}
+
+#quote-section p:first-of-type {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: justify;
+}
+
+#quote-section p:last-of-type {
+    align-self: flex-end;
+    font-weight: 600;
+}
+
+#second-signup-section > .flex {
+    background-color: #3882f6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    color: #E5E7EB;
+    padding: 50px 100px;
+}
+
+.flex > button {
+    border: 2px solid white;
+}
+
+.text-content > p:first-of-type {
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0 10px 0;
+    font-size: 12px;
+}
 
