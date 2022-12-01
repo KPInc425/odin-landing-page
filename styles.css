@@ -246,5 +246,9 @@ footer {
     .info-image {
         height: 100px
     }
+
+    .flex > button {
+        font-size: 60%;
+    }
     
 }
